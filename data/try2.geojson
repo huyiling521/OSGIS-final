@@ -2527,13 +2527,13 @@
     "type": "Feature",
     "geometry": {
        "type": "Point",
-       "coordinates":  [ -75.169311,39.9950083 ]
+       "coordinates":  { }
     },
     "properties": {
-    "dispatch_date_time":"##########",
-    "location_block":"2600 BLOCK N 23RD ST",
-    "ucr_general":100,
-    "text_general_code":"Homicide - Criminal"
+    "dispatch_date_time":"",
+    "location_block":"",
+    "ucr_general":null,
+    "text_general_code":""
     }
   },
   {
@@ -4009,26 +4009,26 @@
     "type": "Feature",
     "geometry": {
        "type": "Point",
-       "coordinates":  [ -75.151833,40.0266605 ]
+       "coordinates":  { }
     },
     "properties": {
-    "dispatch_date_time":"##########",
-    "location_block":"1600 BLOCK W LOUDON ST",
-    "ucr_general":100,
-    "text_general_code":"Homicide - Criminal"
+    "dispatch_date_time":"",
+    "location_block":"",
+    "ucr_general":null,
+    "text_general_code":""
     }
   },
   {
     "type": "Feature",
     "geometry": {
        "type": "Point",
-       "coordinates":  [ -75.070057,40.0150526 ]
+       "coordinates":  { }
     },
     "properties": {
-    "dispatch_date_time":"##########",
-    "location_block":"5200 BLOCK  BURTON ST",
-    "ucr_general":100,
-    "text_general_code":"Homicide - Criminal "
+    "dispatch_date_time":"",
+    "location_block":"",
+    "ucr_general":null,
+    "text_general_code":""
     }
   },
   {
@@ -4685,26 +4685,26 @@
     "type": "Feature",
     "geometry": {
        "type": "Point",
-       "coordinates":  [ -75.121622,39.9887572 ]
+       "coordinates":  { }
     },
     "properties": {
-    "dispatch_date_time":"##########",
-    "location_block":"2000 BLOCK E SILVER ST",
-    "ucr_general":100,
-    "text_general_code":"Homicide - Criminal"
+    "dispatch_date_time":"",
+    "location_block":"",
+    "ucr_general":null,
+    "text_general_code":""
     }
   },
   {
     "type": "Feature",
     "geometry": {
        "type": "Point",
-       "coordinates":  [ -75.115639,39.9960846 ]
+       "coordinates":  { }
     },
     "properties": {
-    "dispatch_date_time":"##########",
-    "location_block":"3100 BLOCK  G ST",
-    "ucr_general":100,
-    "text_general_code":"Homicide - Criminal"
+    "dispatch_date_time":"",
+    "location_block":"",
+    "ucr_general":null,
+    "text_general_code":""
     }
   },
   {
@@ -5218,26 +5218,26 @@
     "type": "Feature",
     "geometry": {
        "type": "Point",
-       "coordinates":  [ -75.15901,40.0641125 ]
+       "coordinates":  { }
     },
     "properties": {
-    "dispatch_date_time":"##########",
-    "location_block":"1800 BLOCK  MOHICAN ST",
-    "ucr_general":100,
-    "text_general_code":"Homicide - Criminal"
+    "dispatch_date_time":"",
+    "location_block":"",
+    "ucr_general":null,
+    "text_general_code":""
     }
   },
   {
     "type": "Feature",
     "geometry": {
        "type": "Point",
-       "coordinates":  [ -75.179554,39.9858001 ]
+       "coordinates":  { }
     },
     "properties": {
-    "dispatch_date_time":"##########",
-    "location_block":"2700 BLOCK  RIDGE AV",
-    "ucr_general":100,
-    "text_general_code":"Homicide - Criminal"
+    "dispatch_date_time":"",
+    "location_block":"",
+    "ucr_general":null,
+    "text_general_code":""
     }
   },
   {
@@ -5803,26 +5803,26 @@
     "type": "Feature",
     "geometry": {
        "type": "Point",
-       "coordinates":  [ -75.104115,39.9980299 ]
+       "coordinates":  { }
     },
     "properties": {
-    "dispatch_date_time":"##########",
-    "location_block":"3500 BLOCK  EMERALD ST",
-    "ucr_general":100,
-    "text_general_code":"Homicide - Criminal"
+    "dispatch_date_time":"",
+    "location_block":"",
+    "ucr_general":null,
+    "text_general_code":""
     }
   },
   {
     "type": "Feature",
     "geometry": {
        "type": "Point",
-       "coordinates":  [ -75.232489,39.9688595 ]
+       "coordinates":  { }
     },
     "properties": {
-    "dispatch_date_time":"##########",
-    "location_block":"5600 BLOCK  WYALUSING AV",
-    "ucr_general":100,
-    "text_general_code":"Homicide - Criminal"
+    "dispatch_date_time":"",
+    "location_block":"",
+    "ucr_general":null,
+    "text_general_code":""
     }
   },
   {
@@ -6583,26 +6583,26 @@
     "type": "Feature",
     "geometry": {
        "type": "Point",
-       "coordinates":  [ -75.128384,40.0319408 ]
+       "coordinates":  { }
     },
     "properties": {
-    "dispatch_date_time":"##########",
-    "location_block":"200 BLOCK  DELPHINE ST",
-    "ucr_general":100,
-    "text_general_code":"Homicide - Criminal"
+    "dispatch_date_time":"",
+    "location_block":"",
+    "ucr_general":null,
+    "text_general_code":""
     }
   },
   {
     "type": "Feature",
     "geometry": {
        "type": "Point",
-       "coordinates":  [ -75.160448,39.9923544 ]
+       "coordinates":  { }
     },
     "properties": {
-    "dispatch_date_time":"##########",
-    "location_block":"2500 BLOCK N COLORADO ST",
-    "ucr_general":100,
-    "text_general_code":"Homicide - Criminal"
+    "dispatch_date_time":"",
+    "location_block":"",
+    "ucr_general":null,
+    "text_general_code":""
     }
   },
   {
@@ -7532,26 +7532,26 @@
     "type": "Feature",
     "geometry": {
        "type": "Point",
-       "coordinates":  [ -75.226688,39.9396264 ]
+       "coordinates":  { }
     },
     "properties": {
-    "dispatch_date_time":"##########",
-    "location_block":"5500 BLOCK  BELMAR ST",
-    "ucr_general":100,
-    "text_general_code":"Homicide - Criminal"
+    "dispatch_date_time":"",
+    "location_block":"",
+    "ucr_general":null,
+    "text_general_code":""
     }
   },
   {
     "type": "Feature",
     "geometry": {
        "type": "Point",
-       "coordinates":  [ -75.15076,40.0493172 ]
+       "coordinates":  { }
     },
     "properties": {
-    "dispatch_date_time":"##########",
-    "location_block":"6200 BLOCK  OGONTZ AV",
-    "ucr_general":100,
-    "text_general_code":"Homicide - Criminal"
+    "dispatch_date_time":"",
+    "location_block":"",
+    "ucr_general":null,
+    "text_general_code":""
     }
   },
   {
@@ -8832,13 +8832,13 @@
     "type": "Feature",
     "geometry": {
        "type": "Point",
-       "coordinates":  [ -75.203068,39.9695605 ]
+       "coordinates":  { }
     },
     "properties": {
-    "dispatch_date_time":"##########",
-    "location_block":"3900 BLOCK  OGDEN ST",
-    "ucr_general":100,
-    "text_general_code":"Homicide - Criminal"
+    "dispatch_date_time":"",
+    "location_block":"",
+    "ucr_general":null,
+    "text_general_code":""
     }
   },
   {
@@ -9482,26 +9482,26 @@
     "type": "Feature",
     "geometry": {
        "type": "Point",
-       "coordinates":  [ -75.155066,39.9702218 ]
+       "coordinates":  { }
     },
     "properties": {
-    "dispatch_date_time":"##########",
-    "location_block":"900 BLOCK N MARVINE ST",
-    "ucr_general":100,
-    "text_general_code":"Homicide - Criminal"
+    "dispatch_date_time":"",
+    "location_block":"",
+    "ucr_general":null,
+    "text_general_code":""
     }
   },
   {
     "type": "Feature",
     "geometry": {
        "type": "Point",
-       "coordinates":  [ -75.168663,40.0376787 ]
+       "coordinates":  { }
     },
     "properties": {
-    "dispatch_date_time":"##########",
-    "location_block":"5500 BLOCK  MORTON ST",
-    "ucr_general":100,
-    "text_general_code":"Homicide - Criminal"
+    "dispatch_date_time":"",
+    "location_block":"",
+    "ucr_general":null,
+    "text_general_code":""
     }
   },
   {
@@ -10639,13 +10639,13 @@
     "type": "Feature",
     "geometry": {
        "type": "Point",
-       "coordinates":  [ -75.148077,39.9622629 ]
+       "coordinates":  { }
     },
     "properties": {
-    "dispatch_date_time":"##########",
-    "location_block":"600 BLOCK  GREEN ST",
-    "ucr_general":100,
-    "text_general_code":"Homicide - Criminal"
+    "dispatch_date_time":"",
+    "location_block":"",
+    "ucr_general":null,
+    "text_general_code":""
     }
   },
   {
@@ -11419,13 +11419,13 @@
     "type": "Feature",
     "geometry": {
        "type": "Point",
-       "coordinates":  [ -75.167096,39.9976551 ]
+       "coordinates":  { }
     },
     "properties": {
-    "dispatch_date_time":"##########",
-    "location_block":"2800 BLOCK N 22ND ST",
-    "ucr_general":100,
-    "text_general_code":"Homicide - Criminal "
+    "dispatch_date_time":"",
+    "location_block":"",
+    "ucr_general":null,
+    "text_general_code":""
     }
   },
   {
@@ -12147,39 +12147,39 @@
     "type": "Feature",
     "geometry": {
        "type": "Point",
-       "coordinates":  [ -75.142064,40.0331919 ]
+       "coordinates":  { }
     },
     "properties": {
-    "dispatch_date_time":"##########",
-    "location_block":"1200 BLOCK  WAGNER AV",
-    "ucr_general":100,
-    "text_general_code":"Homicide - Criminal"
+    "dispatch_date_time":"",
+    "location_block":"",
+    "ucr_general":null,
+    "text_general_code":""
     }
   },
   {
     "type": "Feature",
     "geometry": {
        "type": "Point",
-       "coordinates":  [ -75.231305,39.921035 ]
+       "coordinates":  { }
     },
     "properties": {
-    "dispatch_date_time":"##########",
-    "location_block":"2500 BLOCK S 66TH ST",
-    "ucr_general":100,
-    "text_general_code":"Homicide - Criminal"
+    "dispatch_date_time":"",
+    "location_block":"",
+    "ucr_general":null,
+    "text_general_code":""
     }
   },
   {
     "type": "Feature",
     "geometry": {
        "type": "Point",
-       "coordinates":  [ -75.161027,39.954155 ]
+       "coordinates":  { }
     },
     "properties": {
-    "dispatch_date_time":"##########",
-    "location_block":"100 BLOCK N 13TH ST",
-    "ucr_general":100,
-    "text_general_code":"Homicide - Criminal "
+    "dispatch_date_time":"",
+    "location_block":"",
+    "ucr_general":null,
+    "text_general_code":""
     }
   },
   {
@@ -12693,13 +12693,13 @@
     "type": "Feature",
     "geometry": {
        "type": "Point",
-       "coordinates":  [ -75.115566,39.9964285 ]
+       "coordinates":  { }
     },
     "properties": {
-    "dispatch_date_time":"##########",
-    "location_block":"3100 BLOCK  G ST",
-    "ucr_general":100,
-    "text_general_code":"Homicide - Criminal"
+    "dispatch_date_time":"",
+    "location_block":"",
+    "ucr_general":null,
+    "text_general_code":""
     }
   },
   {
@@ -13278,26 +13278,26 @@
     "type": "Feature",
     "geometry": {
        "type": "Point",
-       "coordinates":  [ -75.124919,40.02477 ]
+       "coordinates":  { }
     },
     "properties": {
-    "dispatch_date_time":"##########",
-    "location_block":"4800 BLOCK N HOWARD ST",
-    "ucr_general":100,
-    "text_general_code":"Homicide - Criminal"
+    "dispatch_date_time":"",
+    "location_block":"",
+    "ucr_general":null,
+    "text_general_code":""
     }
   },
   {
     "type": "Feature",
     "geometry": {
        "type": "Point",
-       "coordinates":  [ -75.085644,40.0162176 ]
+       "coordinates":  { }
     },
     "properties": {
-    "dispatch_date_time":"##########",
-    "location_block":"1500 BLOCK  OVERINGTON ST",
-    "ucr_general":100,
-    "text_general_code":"Homicide - Criminal"
+    "dispatch_date_time":"",
+    "location_block":"",
+    "ucr_general":null,
+    "text_general_code":""
     }
   },
   {
@@ -15605,39 +15605,39 @@
     "type": "Feature",
     "geometry": {
        "type": "Point",
-       "coordinates":  [ -75.157327,40.042365 ]
+       "coordinates":  { }
     },
     "properties": {
-    "dispatch_date_time":"##########",
-    "location_block":"2100 BLOCK  FURLEY ST",
-    "ucr_general":100,
-    "text_general_code":"Homicide - Criminal"
+    "dispatch_date_time":"",
+    "location_block":"",
+    "ucr_general":null,
+    "text_general_code":""
     }
   },
   {
     "type": "Feature",
     "geometry": {
        "type": "Point",
-       "coordinates":  [ -75.174083,40.0009151 ]
+       "coordinates":  { }
     },
     "properties": {
-    "dispatch_date_time":"##########",
-    "location_block":"2900 BLOCK N TANEY ST",
-    "ucr_general":100,
-    "text_general_code":"Homicide - Criminal"
+    "dispatch_date_time":"",
+    "location_block":"",
+    "ucr_general":null,
+    "text_general_code":""
     }
   },
   {
     "type": "Feature",
     "geometry": {
        "type": "Point",
-       "coordinates":  [ -75.229568,39.9473198 ]
+       "coordinates":  { }
     },
     "properties": {
-    "dispatch_date_time":"##########",
-    "location_block":"800 BLOCK S 53RD ST",
-    "ucr_general":100,
-    "text_general_code":"Homicide - Criminal"
+    "dispatch_date_time":"",
+    "location_block":"",
+    "ucr_general":null,
+    "text_general_code":""
     }
   },
   {
@@ -16190,26 +16190,26 @@
     "type": "Feature",
     "geometry": {
        "type": "Point",
-       "coordinates":  [ -75.070105,40.0150419 ]
+       "coordinates":  { }
     },
     "properties": {
-    "dispatch_date_time":"##########",
-    "location_block":"5200 BLOCK  BURTON ST",
-    "ucr_general":100,
-    "text_general_code":"Homicide - Criminal"
+    "dispatch_date_time":"",
+    "location_block":"",
+    "ucr_general":null,
+    "text_general_code":""
     }
   },
   {
     "type": "Feature",
     "geometry": {
        "type": "Point",
-       "coordinates":  [ -81.581202,28.4195483 ]
+       "coordinates":  { }
     },
     "properties": {
-    "dispatch_date_time":"##########",
-    "location_block":"5900 BLOCK  WINDSOR SR",
-    "ucr_general":100,
-    "text_general_code":"Homicide - Criminal"
+    "dispatch_date_time":"",
+    "location_block":"",
+    "ucr_general":null,
+    "text_general_code":""
     }
   },
   {
@@ -16827,26 +16827,26 @@
     "type": "Feature",
     "geometry": {
        "type": "Point",
-       "coordinates":  [ -75.200417,39.9665241 ]
+       "coordinates":  { }
     },
     "properties": {
-    "dispatch_date_time":"##########",
-    "location_block":"3900 BLOCK  ASPEN ST",
-    "ucr_general":100,
-    "text_general_code":"Homicide - Criminal"
+    "dispatch_date_time":"",
+    "location_block":"",
+    "ucr_general":null,
+    "text_general_code":""
     }
   },
   {
     "type": "Feature",
     "geometry": {
        "type": "Point",
-       "coordinates":  [ -75.02049,40.0319523 ]
+       "coordinates":  { }
     },
     "properties": {
-    "dispatch_date_time":"##########",
-    "location_block":"8100 BLOCK  STATE RD",
-    "ucr_general":100,
-    "text_general_code":"Homicide - Criminal "
+    "dispatch_date_time":"",
+    "location_block":"",
+    "ucr_general":null,
+    "text_general_code":""
     }
   },
   {
@@ -17542,26 +17542,26 @@
     "type": "Feature",
     "geometry": {
        "type": "Point",
-       "coordinates":  [ -75.138076,40.0250856 ]
+       "coordinates":  { }
     },
     "properties": {
-    "dispatch_date_time":"##########",
-    "location_block":"4800 BLOCK N 8TH ST",
-    "ucr_general":100,
-    "text_general_code":"Homicide - Criminal"
+    "dispatch_date_time":"",
+    "location_block":"",
+    "ucr_general":null,
+    "text_general_code":""
     }
   },
   {
     "type": "Feature",
     "geometry": {
        "type": "Point",
-       "coordinates":  [ -75.156916,40.0524142 ]
+       "coordinates":  { }
     },
     "properties": {
-    "dispatch_date_time":"##########",
-    "location_block":"6400 BLOCK N BEECHWOOD ST",
-    "ucr_general":100,
-    "text_general_code":"Homicide - Criminal"
+    "dispatch_date_time":"",
+    "location_block":"",
+    "ucr_general":null,
+    "text_general_code":""
     }
   },
   {
@@ -18088,13 +18088,13 @@
     "type": "Feature",
     "geometry": {
        "type": "Point",
-       "coordinates":  [ -75.146906,40.0643497 ]
+       "coordinates":  { }
     },
     "properties": {
-    "dispatch_date_time":"##########",
-    "location_block":"1800 BLOCK  PLYMOUTH ST",
-    "ucr_general":100,
-    "text_general_code":"Homicide - Criminal"
+    "dispatch_date_time":"",
+    "location_block":"",
+    "ucr_general":null,
+    "text_general_code":""
     }
   },
   {
@@ -18712,52 +18712,52 @@
     "type": "Feature",
     "geometry": {
        "type": "Point",
-       "coordinates":  [ -75.158853,39.9922474 ]
+       "coordinates":  { }
     },
     "properties": {
-    "dispatch_date_time":"##########",
-    "location_block":"2500 BLOCK N BANCROFT ST",
-    "ucr_general":100,
-    "text_general_code":"Homicide - Criminal"
+    "dispatch_date_time":"",
+    "location_block":"",
+    "ucr_general":null,
+    "text_general_code":""
     }
   },
   {
     "type": "Feature",
     "geometry": {
        "type": "Point",
-       "coordinates":  [ -75.120403,40.0401546 ]
+       "coordinates":  { }
     },
     "properties": {
-    "dispatch_date_time":"##########",
-    "location_block":"5900 BLOCK N FRONT ST",
-    "ucr_general":100,
-    "text_general_code":"Homicide - Criminal"
+    "dispatch_date_time":"",
+    "location_block":"",
+    "ucr_general":null,
+    "text_general_code":""
     }
   },
   {
     "type": "Feature",
     "geometry": {
        "type": "Point",
-       "coordinates":  [ -75.165441,39.9891008 ]
+       "coordinates":  { }
     },
     "properties": {
-    "dispatch_date_time":"##########",
-    "location_block":"2000 BLOCK W DAUPHIN ST",
-    "ucr_general":100,
-    "text_general_code":"Homicide - Criminal"
+    "dispatch_date_time":"",
+    "location_block":"",
+    "ucr_general":null,
+    "text_general_code":""
     }
   },
   {
     "type": "Feature",
     "geometry": {
        "type": "Point",
-       "coordinates":  [ -75.120403,40.0401546 ]
+       "coordinates":  { }
     },
     "properties": {
-    "dispatch_date_time":"##########",
-    "location_block":"5900 BLOCK N FRONT ST",
-    "ucr_general":100,
-    "text_general_code":"Homicide - Criminal"
+    "dispatch_date_time":"",
+    "location_block":"",
+    "ucr_general":null,
+    "text_general_code":""
     }
   },
   {
@@ -19843,39 +19843,39 @@
     "type": "Feature",
     "geometry": {
        "type": "Point",
-       "coordinates":  [ -75.142065,40.0161887 ]
+       "coordinates":  { }
     },
     "properties": {
-    "dispatch_date_time":"##########",
-    "location_block":"1000 BLOCK W HUNTING PARK AV",
-    "ucr_general":100,
-    "text_general_code":"Homicide - Criminal"
+    "dispatch_date_time":"",
+    "location_block":"",
+    "ucr_general":null,
+    "text_general_code":""
     }
   },
   {
     "type": "Feature",
     "geometry": {
        "type": "Point",
-       "coordinates":  [ -75.233039,39.950337 ]
+       "coordinates":  { }
     },
     "properties": {
-    "dispatch_date_time":"##########",
-    "location_block":"600 BLOCK S 55TH ST",
-    "ucr_general":100,
-    "text_general_code":"Homicide - Criminal"
+    "dispatch_date_time":"",
+    "location_block":"",
+    "ucr_general":null,
+    "text_general_code":""
     }
   },
   {
     "type": "Feature",
     "geometry": {
        "type": "Point",
-       "coordinates":  [ -81.581202,28.4195483 ]
+       "coordinates":  { }
     },
     "properties": {
-    "dispatch_date_time":"##########",
-    "location_block":"2900 BLOCK  WINDRIM AV",
-    "ucr_general":100,
-    "text_general_code":"Homicide - Criminal"
+    "dispatch_date_time":"",
+    "location_block":"",
+    "ucr_general":null,
+    "text_general_code":""
     }
   },
   {
@@ -20649,26 +20649,26 @@
     "type": "Feature",
     "geometry": {
        "type": "Point",
-       "coordinates":  [ -75.114847,39.9975324 ]
+       "coordinates":  { }
     },
     "properties": {
-    "dispatch_date_time":"##########",
-    "location_block":"800 BLOCK E MADISON ST",
-    "ucr_general":100,
-    "text_general_code":"Homicide - Criminal"
+    "dispatch_date_time":"",
+    "location_block":"",
+    "ucr_general":null,
+    "text_general_code":""
     }
   },
   {
     "type": "Feature",
     "geometry": {
        "type": "Point",
-       "coordinates":  [ -75.173354,39.9979584 ]
+       "coordinates":  { }
     },
     "properties": {
-    "dispatch_date_time":"##########",
-    "location_block":"2500 BLOCK W SOMERSET ST",
-    "ucr_general":100,
-    "text_general_code":"Homicide - Criminal"
+    "dispatch_date_time":"",
+    "location_block":"",
+    "ucr_general":null,
+    "text_general_code":""
     }
   },
   {
@@ -21429,52 +21429,52 @@
     "type": "Feature",
     "geometry": {
        "type": "Point",
-       "coordinates":  [ -75.140814,40.0126198 ]
+       "coordinates":  { }
     },
     "properties": {
-    "dispatch_date_time":"##########",
-    "location_block":"800 BLOCK W LUZERNE ST",
-    "ucr_general":100,
-    "text_general_code":"Homicide - Criminal"
+    "dispatch_date_time":"",
+    "location_block":"",
+    "ucr_general":null,
+    "text_general_code":""
     }
   },
   {
     "type": "Feature",
     "geometry": {
        "type": "Point",
-       "coordinates":  [ -75.132276,40.0202036 ]
+       "coordinates":  { }
     },
     "properties": {
-    "dispatch_date_time":"##########",
-    "location_block":"400 BLOCK W ANNSBURY ST",
-    "ucr_general":100,
-    "text_general_code":"Homicide - Criminal"
+    "dispatch_date_time":"",
+    "location_block":"",
+    "ucr_general":null,
+    "text_general_code":""
     }
   },
   {
     "type": "Feature",
     "geometry": {
        "type": "Point",
-       "coordinates":  [ -75.14644,39.9487315 ]
+       "coordinates":  { }
     },
     "properties": {
-    "dispatch_date_time":"##########",
-    "location_block":"300 BLOCK  CHESTNUT ST",
-    "ucr_general":100,
-    "text_general_code":"Homicide - Criminal"
+    "dispatch_date_time":"",
+    "location_block":"",
+    "ucr_general":null,
+    "text_general_code":""
     }
   },
   {
     "type": "Feature",
     "geometry": {
        "type": "Point",
-       "coordinates":  [ -75.243379,39.9747829 ]
+       "coordinates":  { }
     },
     "properties": {
-    "dispatch_date_time":"##########",
-    "location_block":"1500 BLOCK N 62ND ST",
-    "ucr_general":100,
-    "text_general_code":"Homicide - Criminal"
+    "dispatch_date_time":"",
+    "location_block":"",
+    "ucr_general":null,
+    "text_general_code":""
     }
   },
   {
@@ -23106,26 +23106,26 @@
     "type": "Feature",
     "geometry": {
        "type": "Point",
-       "coordinates":  [ -75.157338,40.0456449 ]
+       "coordinates":  { }
     },
     "properties": {
-    "dispatch_date_time":"##########",
-    "location_block":"6000 BLOCK N BEECHWOOD ST",
-    "ucr_general":100,
-    "text_general_code":"Homicide - Criminal"
+    "dispatch_date_time":"",
+    "location_block":"",
+    "ucr_general":null,
+    "text_general_code":""
     }
   },
   {
     "type": "Feature",
     "geometry": {
        "type": "Point",
-       "coordinates":  [ -75.115845,39.9945594 ]
+       "coordinates":  { }
     },
     "properties": {
-    "dispatch_date_time":"##########",
-    "location_block":"3000 BLOCK  RUTH ST",
-    "ucr_general":100,
-    "text_general_code":"Homicide - Criminal"
+    "dispatch_date_time":"",
+    "location_block":"",
+    "ucr_general":null,
+    "text_general_code":""
     }
   },
   {
@@ -24770,13 +24770,13 @@
     "type": "Feature",
     "geometry": {
        "type": "Point",
-       "coordinates":  [ -75.109041,39.9955355 ]
+       "coordinates":  { }
     },
     "properties": {
-    "dispatch_date_time":"##########",
-    "location_block":"1900 BLOCK E WESTMORELAND ST",
-    "ucr_general":100,
-    "text_general_code":"Homicide - Criminal"
+    "dispatch_date_time":"",
+    "location_block":"",
+    "ucr_general":null,
+    "text_general_code":""
     }
   },
   {
@@ -25407,26 +25407,26 @@
     "type": "Feature",
     "geometry": {
        "type": "Point",
-       "coordinates":  [ -74.959364,40.0866439 ]
+       "coordinates":  { }
     },
     "properties": {
-    "dispatch_date_time":"##########",
-    "location_block":"1400 BLOCK  FRANKLIN MILLS",
-    "ucr_general":100,
-    "text_general_code":"Homicide - Criminal"
+    "dispatch_date_time":"",
+    "location_block":"",
+    "ucr_general":null,
+    "text_general_code":""
     }
   },
   {
     "type": "Feature",
     "geometry": {
        "type": "Point",
-       "coordinates":  [ -75.165211,39.9847186 ]
+       "coordinates":  { }
     },
     "properties": {
-    "dispatch_date_time":"##########",
-    "location_block":"1900 BLOCK  PAGE ST",
-    "ucr_general":100,
-    "text_general_code":"Homicide - Criminal"
+    "dispatch_date_time":"",
+    "location_block":"",
+    "ucr_general":null,
+    "text_general_code":""
     }
   },
   {
@@ -26616,13 +26616,13 @@
     "type": "Feature",
     "geometry": {
        "type": "Point",
-       "coordinates":  [ -75.02049,40.0319523 ]
+       "coordinates":  { }
     },
     "properties": {
-    "dispatch_date_time":"##########",
-    "location_block":"8100 BLOCK  STATE RD CFCF",
-    "ucr_general":100,
-    "text_general_code":"Homicide - Criminal "
+    "dispatch_date_time":"",
+    "location_block":"",
+    "ucr_general":null,
+    "text_general_code":""
     }
   },
   {
@@ -27383,26 +27383,26 @@
     "type": "Feature",
     "geometry": {
        "type": "Point",
-       "coordinates":  [ -75.083851,40.0177251 ]
+       "coordinates":  { }
     },
     "properties": {
-    "dispatch_date_time":"##########",
-    "location_block":"4700 BLOCK  OXFORD AV",
-    "ucr_general":100,
-    "text_general_code":"Homicide - Criminal"
+    "dispatch_date_time":"",
+    "location_block":"",
+    "ucr_general":null,
+    "text_general_code":""
     }
   },
   {
     "type": "Feature",
     "geometry": {
        "type": "Point",
-       "coordinates":  [ -75.075834,40.0354298 ]
+       "coordinates":  { }
     },
     "properties": {
-    "dispatch_date_time":"##########",
-    "location_block":"1500 BLOCK  MCKINLEY ST",
-    "ucr_general":100,
-    "text_general_code":"Homicide - Criminal"
+    "dispatch_date_time":"",
+    "location_block":"",
+    "ucr_general":null,
+    "text_general_code":""
     }
   },
   {
@@ -28098,13 +28098,13 @@
     "type": "Feature",
     "geometry": {
        "type": "Point",
-       "coordinates":  [ -75.170222,40.0287454 ]
+       "coordinates":  { }
     },
     "properties": {
-    "dispatch_date_time":"##########",
-    "location_block":"5200 BLOCK  KNOX ST",
-    "ucr_general":100,
-    "text_general_code":"Homicide - Criminal"
+    "dispatch_date_time":"",
+    "location_block":"",
+    "ucr_general":null,
+    "text_general_code":""
     }
   },
   {
@@ -28670,26 +28670,26 @@
     "type": "Feature",
     "geometry": {
        "type": "Point",
-       "coordinates":  [ -75.079797,40.0414697 ]
+       "coordinates":  { }
     },
     "properties": {
-    "dispatch_date_time":"##########",
-    "location_block":"1200 BLOCK  ELBRIDGE ST",
-    "ucr_general":100,
-    "text_general_code":"Homicide - Criminal "
+    "dispatch_date_time":"",
+    "location_block":"",
+    "ucr_general":null,
+    "text_general_code":""
     }
   },
   {
     "type": "Feature",
     "geometry": {
        "type": "Point",
-       "coordinates":  [ -75.109415,39.991852 ]
+       "coordinates":  { }
     },
     "properties": {
-    "dispatch_date_time":"##########",
-    "location_block":"2100 BLOCK E ALLEGHENY AV",
-    "ucr_general":100,
-    "text_general_code":"Homicide - Criminal"
+    "dispatch_date_time":"",
+    "location_block":"",
+    "ucr_general":null,
+    "text_general_code":""
     }
   },
   {
@@ -29346,13 +29346,13 @@
     "type": "Feature",
     "geometry": {
        "type": "Point",
-       "coordinates":  [ -75.082251,40.021135 ]
+       "coordinates":  { }
     },
     "properties": {
-    "dispatch_date_time":"##########",
-    "location_block":"4900 BLOCK  PENN ST",
-    "ucr_general":100,
-    "text_general_code":"Homicide - Criminal"
+    "dispatch_date_time":"",
+    "location_block":"",
+    "ucr_general":null,
+    "text_general_code":""
     }
   },
   {
@@ -30672,13 +30672,13 @@
     "type": "Feature",
     "geometry": {
        "type": "Point",
-       "coordinates":  [ -75.154325,40.0314914 ]
+       "coordinates":  { }
     },
     "properties": {
-    "dispatch_date_time":"##########",
-    "location_block":"1800 BLOCK  LINDLEY AV",
-    "ucr_general":100,
-    "text_general_code":"Homicide - Criminal"
+    "dispatch_date_time":"",
+    "location_block":"",
+    "ucr_general":null,
+    "text_general_code":""
     }
   },
   {
@@ -31452,26 +31452,26 @@
     "type": "Feature",
     "geometry": {
        "type": "Point",
-       "coordinates":  [ -75.155718,40.0190613 ]
+       "coordinates":  { }
     },
     "properties": {
-    "dispatch_date_time":"##########",
-    "location_block":"4200 BLOCK  GERMANTOWN AV",
-    "ucr_general":100,
-    "text_general_code":"Homicide - Criminal"
+    "dispatch_date_time":"",
+    "location_block":"",
+    "ucr_general":null,
+    "text_general_code":""
     }
   },
   {
     "type": "Feature",
     "geometry": {
        "type": "Point",
-       "coordinates":  [ -75.118943,39.9916802 ]
+       "coordinates":  { }
     },
     "properties": {
-    "dispatch_date_time":"##########",
-    "location_block":"2900 BLOCK  JASPER ST",
-    "ucr_general":100,
-    "text_general_code":"Homicide - Criminal"
+    "dispatch_date_time":"",
+    "location_block":"",
+    "ucr_general":null,
+    "text_general_code":""
     }
   },
   {
@@ -32466,26 +32466,26 @@
     "type": "Feature",
     "geometry": {
        "type": "Point",
-       "coordinates":  [ -75.02049,40.0319523 ]
+       "coordinates":  { }
     },
     "properties": {
-    "dispatch_date_time":"##########",
-    "location_block":"8100 BLOCK  STATE RD",
-    "ucr_general":100,
-    "text_general_code":"Homicide - Criminal"
+    "dispatch_date_time":"",
+    "location_block":"",
+    "ucr_general":null,
+    "text_general_code":""
     }
   },
   {
     "type": "Feature",
     "geometry": {
        "type": "Point",
-       "coordinates":  [ -75.22974,39.9175558 ]
+       "coordinates":  { }
     },
     "properties": {
-    "dispatch_date_time":"##########",
-    "location_block":"6700 BLOCK  GUYER ST",
-    "ucr_general":100,
-    "text_general_code":"Homicide - Criminal"
+    "dispatch_date_time":"",
+    "location_block":"",
+    "ucr_general":null,
+    "text_general_code":""
     }
   },
   {
@@ -33935,13 +33935,13 @@
     "type": "Feature",
     "geometry": {
        "type": "Point",
-       "coordinates":  [ -74.984446,40.0962884 ]
+       "coordinates":  { }
     },
     "properties": {
-    "dispatch_date_time":"##########",
-    "location_block":"1500 BLOCK  RIVERSIDE DR",
-    "ucr_general":100,
-    "text_general_code":"Homicide - Criminal"
+    "dispatch_date_time":"",
+    "location_block":"",
+    "ucr_general":null,
+    "text_general_code":""
     }
   },
   {
@@ -34442,39 +34442,39 @@
     "type": "Feature",
     "geometry": {
        "type": "Point",
-       "coordinates":  [ -75.169136,39.996172 ]
+       "coordinates":  { }
     },
     "properties": {
-    "dispatch_date_time":"##########",
-    "location_block":"2700 BLOCK N 23RD ST",
-    "ucr_general":100,
-    "text_general_code":"Homicide - Criminal"
+    "dispatch_date_time":"",
+    "location_block":"",
+    "ucr_general":null,
+    "text_general_code":""
     }
   },
   {
     "type": "Feature",
     "geometry": {
        "type": "Point",
-       "coordinates":  [ -75.083105,40.0172988 ]
+       "coordinates":  { }
     },
     "properties": {
-    "dispatch_date_time":"##########",
-    "location_block":"4700 BLOCK  FRANKFORD AV",
-    "ucr_general":100,
-    "text_general_code":"Homicide - Criminal "
+    "dispatch_date_time":"",
+    "location_block":"",
+    "ucr_general":null,
+    "text_general_code":""
     }
   },
   {
     "type": "Feature",
     "geometry": {
        "type": "Point",
-       "coordinates":  [ -75.203699,39.9639123 ]
+       "coordinates":  { }
     },
     "properties": {
-    "dispatch_date_time":"##########",
-    "location_block":"4000 BLOCK  LANCASTER AV",
-    "ucr_general":100,
-    "text_general_code":"Homicide - Criminal"
+    "dispatch_date_time":"",
+    "location_block":"",
+    "ucr_general":null,
+    "text_general_code":""
     }
   },
   {
@@ -35924,13 +35924,13 @@
     "type": "Feature",
     "geometry": {
        "type": "Point",
-       "coordinates":  [ -75.191799,39.9649662 ]
+       "coordinates":  { }
     },
     "properties": {
-    "dispatch_date_time":"##########",
-    "location_block":"600 BLOCK N 34TH ST",
-    "ucr_general":100,
-    "text_general_code":"Homicide - Criminal"
+    "dispatch_date_time":"",
+    "location_block":"",
+    "ucr_general":null,
+    "text_general_code":""
     }
   },
   {
@@ -36587,26 +36587,26 @@
     "type": "Feature",
     "geometry": {
        "type": "Point",
-       "coordinates":  [ -75.010587,40.0501882 ]
+       "coordinates":  { }
     },
     "properties": {
-    "dispatch_date_time":"##########",
-    "location_block":"8800 BLOCK  FRANKFORD AV",
-    "ucr_general":100,
-    "text_general_code":"Homicide - Criminal"
+    "dispatch_date_time":"",
+    "location_block":"",
+    "ucr_general":null,
+    "text_general_code":""
     }
   },
   {
     "type": "Feature",
     "geometry": {
        "type": "Point",
-       "coordinates":  [ -75.227927,39.9341777 ]
+       "coordinates":  { }
     },
     "properties": {
-    "dispatch_date_time":"##########",
-    "location_block":"5800 BLOCK  KINGSESSING AV",
-    "ucr_general":100,
-    "text_general_code":"Homicide - Criminal"
+    "dispatch_date_time":"",
+    "location_block":"",
+    "ucr_general":null,
+    "text_general_code":""
     }
   },
   {
@@ -37419,65 +37419,65 @@
     "type": "Feature",
     "geometry": {
        "type": "Point",
-       "coordinates":  [ -75.266542,39.97347 ]
+       "coordinates":  { }
     },
     "properties": {
-    "dispatch_date_time":"##########",
-    "location_block":"1400 BLOCK N 76TH ST",
-    "ucr_general":100,
-    "text_general_code":"Homicide - Criminal"
+    "dispatch_date_time":"",
+    "location_block":"",
+    "ucr_general":null,
+    "text_general_code":""
     }
   },
   {
     "type": "Feature",
     "geometry": {
        "type": "Point",
-       "coordinates":  [ -75.266542,39.97347 ]
+       "coordinates":  { }
     },
     "properties": {
-    "dispatch_date_time":"##########",
-    "location_block":"1400 BLOCK N 76TH ST",
-    "ucr_general":100,
-    "text_general_code":"Homicide - Criminal"
+    "dispatch_date_time":"",
+    "location_block":"",
+    "ucr_general":null,
+    "text_general_code":""
     }
   },
   {
     "type": "Feature",
     "geometry": {
        "type": "Point",
-       "coordinates":  [ -75.233781,39.9482147 ]
+       "coordinates":  { }
     },
     "properties": {
-    "dispatch_date_time":"##########",
-    "location_block":"5500 BLOCK  CHRISTIAN ST",
-    "ucr_general":100,
-    "text_general_code":"Homicide - Criminal"
+    "dispatch_date_time":"",
+    "location_block":"",
+    "ucr_general":null,
+    "text_general_code":""
     }
   },
   {
     "type": "Feature",
     "geometry": {
        "type": "Point",
-       "coordinates":  [ -75.177833,40.0742991 ]
+       "coordinates":  { }
     },
     "properties": {
-    "dispatch_date_time":"##########",
-    "location_block":"1200 BLOCK  EASTON RD",
-    "ucr_general":100,
-    "text_general_code":"Homicide - Criminal"
+    "dispatch_date_time":"",
+    "location_block":"",
+    "ucr_general":null,
+    "text_general_code":""
     }
   },
   {
     "type": "Feature",
     "geometry": {
        "type": "Point",
-       "coordinates":  [ -75.053292,40.0215664 ]
+       "coordinates":  { }
     },
     "properties": {
-    "dispatch_date_time":"##########",
-    "location_block":"6300 BLOCK  MARSDEN ST",
-    "ucr_general":100,
-    "text_general_code":"Homicide - Criminal "
+    "dispatch_date_time":"",
+    "location_block":"",
+    "ucr_general":null,
+    "text_general_code":""
     }
   },
   {
@@ -38823,13 +38823,13 @@
     "type": "Feature",
     "geometry": {
        "type": "Point",
-       "coordinates":  [ -81.581202,28.4195483 ]
+       "coordinates":  { }
     },
     "properties": {
-    "dispatch_date_time":"##########",
-    "location_block":"5200 BLOCK  PENTRIDGE T",
-    "ucr_general":100,
-    "text_general_code":"Homicide - Criminal"
+    "dispatch_date_time":"",
+    "location_block":"",
+    "ucr_general":null,
+    "text_general_code":""
     }
   },
   {
@@ -39304,13 +39304,13 @@
     "type": "Feature",
     "geometry": {
        "type": "Point",
-       "coordinates":  [ -81.581202,28.4195483 ]
+       "coordinates":  { }
     },
     "properties": {
-    "dispatch_date_time":"##########",
-    "location_block":"100 BLOCK E WALUNT LN",
-    "ucr_general":100,
-    "text_general_code":"Homicide - Criminal"
+    "dispatch_date_time":"",
+    "location_block":"",
+    "ucr_general":null,
+    "text_general_code":""
     }
   },
   {
@@ -39889,26 +39889,26 @@
     "type": "Feature",
     "geometry": {
        "type": "Point",
-       "coordinates":  [ -75.131568,40.0320083 ]
+       "coordinates":  { }
     },
     "properties": {
-    "dispatch_date_time":"##########",
-    "location_block":"5300 BLOCK N 5TH ST",
-    "ucr_general":100,
-    "text_general_code":"Homicide - Criminal"
+    "dispatch_date_time":"",
+    "location_block":"",
+    "ucr_general":null,
+    "text_general_code":""
     }
   },
   {
     "type": "Feature",
     "geometry": {
        "type": "Point",
-       "coordinates":  [ -75.153642,40.0289667 ]
+       "coordinates":  { }
     },
     "properties": {
-    "dispatch_date_time":"##########",
-    "location_block":"1800 BLOCK  SULIS ST",
-    "ucr_general":100,
-    "text_general_code":"Homicide - Criminal"
+    "dispatch_date_time":"",
+    "location_block":"",
+    "ucr_general":null,
+    "text_general_code":""
     }
   },
   {
@@ -40513,26 +40513,26 @@
     "type": "Feature",
     "geometry": {
        "type": "Point",
-       "coordinates":  [ -75.17435,39.9802948 ]
+       "coordinates":  { }
     },
     "properties": {
-    "dispatch_date_time":"##########",
-    "location_block":"2400 BLOCK  NICHOLAS ST",
-    "ucr_general":100,
-    "text_general_code":"Homicide - Criminal"
+    "dispatch_date_time":"",
+    "location_block":"",
+    "ucr_general":null,
+    "text_general_code":""
     }
   },
   {
     "type": "Feature",
     "geometry": {
        "type": "Point",
-       "coordinates":  [ -75.065101,40.0164978 ]
+       "coordinates":  { }
     },
     "properties": {
-    "dispatch_date_time":"##########",
-    "location_block":"2000 BLOCK  ANCHOR ST",
-    "ucr_general":100,
-    "text_general_code":"Homicide - Criminal"
+    "dispatch_date_time":"",
+    "location_block":"",
+    "ucr_general":null,
+    "text_general_code":""
     }
   },
   {
@@ -41033,13 +41033,13 @@
     "type": "Feature",
     "geometry": {
        "type": "Point",
-       "coordinates":  [ -75.0334,40.1186926 ]
+       "coordinates":  { }
     },
     "properties": {
-    "dispatch_date_time":"##########",
-    "location_block":"11000 BLOCK  GREINER RD",
-    "ucr_general":100,
-    "text_general_code":"Homicide - Criminal "
+    "dispatch_date_time":"",
+    "location_block":"",
+    "ucr_general":null,
+    "text_general_code":""
     }
   },
   {
@@ -42554,65 +42554,65 @@
     "type": "Feature",
     "geometry": {
        "type": "Point",
-       "coordinates":  [ -75.156165,40.0098262 ]
+       "coordinates":  { }
     },
     "properties": {
-    "dispatch_date_time":"##########",
-    "location_block":"1700 BLOCK  ERIE AV",
-    "ucr_general":100,
-    "text_general_code":"Homicide - Criminal"
+    "dispatch_date_time":"",
+    "location_block":"",
+    "ucr_general":null,
+    "text_general_code":""
     }
   },
   {
     "type": "Feature",
     "geometry": {
        "type": "Point",
-       "coordinates":  [ -75.148285,39.9941803 ]
+       "coordinates":  { }
     },
     "properties": {
-    "dispatch_date_time":"##########",
-    "location_block":"2700 BLOCK N WARNOCK ST",
-    "ucr_general":100,
-    "text_general_code":"Homicide - Criminal"
+    "dispatch_date_time":"",
+    "location_block":"",
+    "ucr_general":null,
+    "text_general_code":""
     }
   },
   {
     "type": "Feature",
     "geometry": {
        "type": "Point",
-       "coordinates":  [ -75.239292,39.9208362 ]
+       "coordinates":  { }
     },
     "properties": {
-    "dispatch_date_time":"##########",
-    "location_block":"2200 BLOCK S 69TH ST",
-    "ucr_general":100,
-    "text_general_code":"Homicide - Criminal"
+    "dispatch_date_time":"",
+    "location_block":"",
+    "ucr_general":null,
+    "text_general_code":""
     }
   },
   {
     "type": "Feature",
     "geometry": {
        "type": "Point",
-       "coordinates":  [ -75.127915,39.9958471 ]
+       "coordinates":  { }
     },
     "properties": {
-    "dispatch_date_time":"##########",
-    "location_block":"3000 BLOCK  A ST",
-    "ucr_general":100,
-    "text_general_code":"Homicide - Criminal"
+    "dispatch_date_time":"",
+    "location_block":"",
+    "ucr_general":null,
+    "text_general_code":""
     }
   },
   {
     "type": "Feature",
     "geometry": {
        "type": "Point",
-       "coordinates":  [ -75.127915,39.9958471 ]
+       "coordinates":  { }
     },
     "properties": {
-    "dispatch_date_time":"##########",
-    "location_block":"3000 BLOCK  A ST",
-    "ucr_general":100,
-    "text_general_code":"Homicide - Criminal"
+    "dispatch_date_time":"",
+    "location_block":"",
+    "ucr_general":null,
+    "text_general_code":""
     }
   },
   {
