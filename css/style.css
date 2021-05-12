@@ -97,12 +97,13 @@ p.main {
     height:20px;
 }
 
-.nav-link{
-    color:white;
-    padding-top:8px;
-    padding-bottom:8px;
-    padding-left:10px;
-    padding-right:10px
+.nav-link {
+    color: white;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 15px;
+    margin-right: 30px;
+    padding-right: 15px;
 }
 
 .nav-link:hover{
@@ -155,6 +156,7 @@ p.main {
     background-repeat: no-repeat;
     background-position-x: center;
     background-position-y: 30px;
+    margin-right: 10px;
     font-size: 14px;
     height: 120px;
     width: 100px;
