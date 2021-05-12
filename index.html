@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <!-- CSS Imports -->
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css"/> 
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css" 
+          rel="stylesheet" integrity="sha384-wEmeIV1mKuiNpC+IOBjI7aAzPcEZeedi5yW5f2yOq55WWLwNGmvvx4Um1vskeMj0" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/bootstrap-datetimepicker.css" />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+
+  <body ng-app = "mos" class = "ng-scope" data-gr-c-s-loaded = "true">
+    <div ui-view class = "ng-scope">
+        <!-- Headroom -->
+         <div class="titlebar">
+        <a class = "pull-right nav-btn nav-home"  id = "Home" href = "realindex.html" role = "button">Home</a> 
+        <a class = "pull-right nav-btn nav-help" id = "Help" role = "button">Help</a>
+        <div id = "logo" ></div>
+
+        
+
+        <a class="btn btn-dark btn-primary btn-mapOption" data-bs-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">
+            MAP OPTION
+        </a>
+        
+   
+        <div class="legend pull-right">
+            <ul class="list"><p class="center" style = "font-size: 18px">CRIME CATEGORY</p>
+              <li style = "font-size: 14px"><span style='background: #7f0000'></span>Criminal Homiside</li>
+              <li style = "font-size: 14px"><span style='background: #b30000'></span>Forcible Rape</li>
+              <li style = "font-size: 14px"><span style='background:  #d7301f'></span>Robbery</li>
+              <li style = "font-size: 14px"><span style='background: #ef6548'></span>Aggravated Assault</li>
+              <li style = "font-size: 14px"><span style='background:  #fc8d59'></span>Burglary</li>
+              <li style = "font-size: 14px"><span style='background: #2171b5'></span>Larceny Theft</li>
+              <li style = "font-size: 14px"><span style='background: #6baed6'></span>Motor Vehicle Theft</li>
+              <li style = "font-size: 14px"><span style='background: #fdbb84'></span>Arson</li>
+              <li style = "font-size: 14px"><span style='background: #e4d1b9'></span>All Other Offenses</li>
+            </ul>
+          </div>
+
+        <div class="collapse show" id="collapseExample"> 
+            <div class="sidebar">
+                <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
+                    <li class="nav-item" role="presentation">
+                      <button class="nav-link active" id="pills-home-tab" data-bs-toggle="pill" data-bs-target="#pills-home" type="button" role="tab" aria-controls="pills-home" aria-selected="true">OVERVIEW</button>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                      <button class="nav-link" id="pills-profile-tab" data-bs-toggle="pill" data-bs-target="#pills-profile" type="button" role="tab" aria-controls="pills-profile" aria-selected="false">FILTER</button>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                      <button class="nav-link" id="pills-contact-tab" data-bs-toggle="pill" data-bs-target="#pills-contact" type="button" role="tab" aria-controls="pills-contact" aria-selected="false">SEARCH</button>
+                    </li>
+                  </ul>
+                  <div class="tab-content" id="pills-tabContent">
+                    <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">
+                        <div class = "sidebar-container">
+                            <div class = "var-summary">
+                              <p id = "tb-title">City Overview</p>
+                              <p id = "tb-sub" style = color:white></p>
+                              <table class = "sidebar-table">
+                                <thead class = "thead-inverse">
+                                  <tr>
+                                    <th style = "width: 180px; color: rgb(145, 178, 212); font-size:18px">Feature</th>
+                                    <th style = "width: 120px; color: rgb(145, 178, 212); font-size:18px">Value</th>
+                                  </tr>
+                                </thead>
+                                <tbody>
+                 
+                                  <tr style = font-size:13px><td id = "tb-dist">Total population: </td><td id = "tb-dist1">1555000</td></tr>
+                                  <tr style = font-size:13px><td id = "tb-vio">Violent Crime: </td><td id = "tb-space">14,433</td></tr>
+                                  <tr style = font-size:13px><td id = "tb-viorate">Violent Crimes Rate: </td><td id = "tb-vio-num">9.11(per 1000)</td></tr>
+                                  <tr style = font-size:13px><td id = "tb-econ">Property Crimes: </td><td id = "tb-econ-num">46,317</td></tr>
+                                  <tr style = font-size:13px><td id = "tb-other"> Property Crime Rate: </td><td id = "tb-other-num">29.24(per 1000)</td></tr>
+                                  <tr style = font-size:13px><td id = "tb-total"> Total Crimes: </td><td id = "tb-total-num">60,750</td></tr>
+                                  <tr style = font-size:13px><td id = "tb-totalrate"> Total Crime Rate: </td><td id = "tb-totalrate-num">38.35(per 1000)</td></tr>
+                                </tbody>
+                              </table><br><br><br>
+                              <button type="button" class="btn btn-outline-light unicase" id="show-crimes">SHOW CRIMES</button>
+                              <button type="button" class="btn btn-outline-light unicase" id="resetmap">RESET MAP</button>
+                            </div>
+                          </div>
+                    </div>
+                    <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab">
+                        <br>
+                        <div id = "checkboxes"class="btn-group btn-group-vertical" role="group" aria-label="Basic checkbox toggle button group">
+                            <input name = "select" type="checkbox" class="btn-check" id="btncheck1" autocomplete="off">
+                            <label class="btn btn-outline-primary" for="btncheck1">Criminal Homiside</label>
+                          
+                            <input name = "select" type="checkbox" class="btn-check" id="btncheck2" autocomplete="off">
+                            <label class="btn btn-outline-primary" for="btncheck2">Forcible Rape</label>
+                          
+                            <input name = "select" type="checkbox" class="btn-check" id="btncheck3" autocomplete="off">
+                            <label class="btn btn-outline-primary" for="btncheck3">Robbery</label>
+
+                            <input name = "select" type="checkbox" class="btn-check" id="btncheck4" autocomplete="off">
+                            <label class="btn btn-outline-primary" for="btncheck4">Aggravated Assault</label>
+                          
+                            <input name = "select" type="checkbox" class="btn-check" id="btncheck5" autocomplete="off">
+                            <label class="btn btn-outline-primary" for="btncheck5">Burglary</label>
+                          
+                            <input name = "select" type="checkbox" class="btn-check" id="btncheck6" autocomplete="off">
+                            <label class="btn btn-outline-primary" for="btncheck6">Larceny Theft</label>
+
+                            <input name = "select" type="checkbox" class="btn-check" id="btncheck7" autocomplete="off">
+                            <label class="btn btn-outline-primary" for="btncheck7">Motor Vehicle Theft</label>
+                          
+                            <input name = "select" type="checkbox" class="btn-check" id="btncheck8" autocomplete="off">
+                            <label class="btn btn-outline-primary" for="btncheck8">Arson</label>
+                          
+                            <input name = "select" type="checkbox" class="btn-check" id="btncheck9" autocomplete="off">
+                            <label class="btn btn-outline-primary" for="btncheck9">All Other Offenses</label>
+    
+                          </div>
+                        <br><br>
+                          <button type="button" class="btn btn-outline-light unicase" id="doFilter">FILTER</button>
+                          <button type="button" class="btn btn-outline-light unicase" id="all">ALL CRIMES</button>
+                    </div>
+                    <div class="tab-pane fade" id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab">
+                        <div class = "input">
+                        <p id = "selectDay" style = "color: rgb(145, 178, 212); font-size:24px; padding-top:20px ;font-weight: bold;">Search by Date</p>
+                        <p style = "color: white">The datasets provide information back until 2006.</p>
+                        <p>Year: <input type = "text" id = "getyear" class="inputdate">
+                        Month: <input type="text" id = "getmonth"class="inputdate"></p>
+                        </div>
+                    </div>
+                  </div>
+              
+                <div id="buffer" class="slider ui-slider ui-corner-all ui-slider-horizontal ui-widget ui-widget-content">
+                    <div class="ui-slider-range ui-corner-all ui-widget-header ui-slider-range-min" style="width: 50%;"></div>
+                    <span tabindex="0" class="ui-slider-handle ui-corner-all ui-state-default" style="left: 50%;"></span>
+                </div> 
+                <br><br>
+                
+            </div>
+        </div>
+    </div>
+
+    <div id="map"></div>
+
+      
+        </ui-view>
+    </div>
+    
+
+
+        <!-- Javascript Imports -->
+        <script src="https://cdn.jsdelivr.net/npm/underscore@1.13.1/underscore-umd-min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" 
+                integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" 
+                crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.7.1/leaflet.js" 
+                integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA==" 
+                crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-csv/0.71/jquery.csv-0.71.min.js"></script>
+        <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+        <!-- JavaScript Bundle with Popper -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js" 
+                integrity="sha384-p34f1UUtsS3wqzfto5wAAmdvj+osOnFyQFpp4Ua3gs/ZVWx6oOypYoCJhGGScy+8" 
+                crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.2.0/chart.min.js"></script>
+        <script src='https://unpkg.com/@turf/turf@6.3.0/turf.min.js'></script>
+        <script src="https://d3js.org/d3.v4.js"></script>
+        <!-- <script src="https://d3js.org/d3.v3.min.js"></script> -->
+        <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+        <script src="https://use.fontawesome.com/releases/v5.13.0/js/all.js" data-auto-replace-svg="nest"></script>
+        <script src="js/moment.min.js"></script>
+        <script src="js/moment-with-locales.min.js"></script>
+        <script src="js/bootstrap-datetimepicker.min.js"></script>
+        <script src="js/classyBrew.js"></script>
+        <script src="js/colorbrewer.js"></script>
+        <script src="js/colorbrewer_schemes.js"></script>
+        <script src="setup.js"></script>
+        <script src="setstyle.js"></script>
+        <script src="main.js"></script>
+
+    </body>
+    </html>
