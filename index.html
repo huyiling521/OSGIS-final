@@ -12,13 +12,51 @@
 
   <body ng-app = "mos" class = "ng-scope" data-gr-c-s-loaded = "true">
     <div ui-view class = "ng-scope">
-        <!-- Headroom -->
-         <div class="titlebar">
+        
+        <div class="titlebar">
         <a class = "pull-right nav-btn nav-home"  id = "Home" href = "realindex.html" role = "button">Home</a> 
         <a class = "pull-right nav-btn nav-help" id = "Help" role = "button">Help</a>
         <div id = "logo" ></div>
 
-        
+        <div class="modal fade" id="myModalHome" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+          <div class="modal-dialog" role="document">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title" id="myModalLabel" style = "color: rgb(145, 178, 212); font-size:24px;font-weight:bolder">How to Use the Website？</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close">
+                </button>
+              </div>
+              <div class="modal-body">
+                The website, EquiLiving, visualizes the home sale price predictions for neighborhoods in Louisville, KY.
+                By predicting the future housing market, EquiLiving will help the Affordable Housing Trust Fund (AHTF) committee to make better decisions
+                of allocating its fundings in neighborhoods that need them most.
+                <br>
+                <p style="font-size:14px;">* For best visualization and display, please use Chrome. </p>
+                <p style="font-weight:bold;">How to use the website:</p>
+                <ul style="font-size:14px;">
+                  <li>
+                The home page visualizes the AHTF Potential Score, developed by EquiLiving, which evaluates each neighborhood's potential to develop new
+                AHTF projects. Scaling from 0 to 10, higher score means that the cost of development is low now (low initial home sale price) and the benefit
+                of AHTF project will be great in the future (dramatic increase of home sale price).
+              </li>
+              <br>
+                <li>
+                In the Neighborhoods Explorer page, you can explore the initial home sale price in 2018, change of home sale price from 2018 to 2023,
+                and the AHTF Potential Score of each neighborhood in Louisville.
+                <p style="font-size:12px;">* Click a specific neighborhood that you are interested in and see detailed information about it.</p>
+              </li>
+              <li>
+                In the AHTF Projects Explorer page, you can look at all the existing AHTF projects in Louisville.
+                <p style="font-size:12px;">* Click a specific project to explore its address, total number of units, and built year.</p>
+              </li>
+            </ul>
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+            </div>
+          </div>
+        </div>
+      </div>
 
         <a class="btn btn-dark btn-primary btn-mapOption" data-bs-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">
             MAP OPTION
@@ -130,8 +168,8 @@
     <div id="map"></div>
 
       
-        </ui-view>
-    </div>
+    </ui-view>
+  </div>
     
 
 

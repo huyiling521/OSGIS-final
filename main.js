@@ -13,6 +13,7 @@ var locationCensus
 var tractLocList
 var crimeLoc
 var filteredMarkers
+var markersTab = "clear"
 var info = L.control();
 
 var res
@@ -107,7 +108,7 @@ $('#doFilter').click(function() {
         })
         console.log(getUcr)
 
-    resetMap()
+  
    filtered = _.filter(requestCrimeData, function(data){
        if (_.contains(getUcr, 0)){
            return (_.contains(getUcr,Number(data.ucr_general)) || data.ucr_general == 800 || data.ucr_general >900)
@@ -115,6 +116,7 @@ $('#doFilter').click(function() {
         return _.contains(getUcr,Number(data.ucr_general))
    })
 
+   resetMap()
    filteredMarkers = _.map(filtered,function(crime) {
     if ((crime.ucr_general == 800) || (crime.ucr_general > 900)){
         var customIcon = L.divIcon({className: "otherCrime"});
@@ -128,8 +130,10 @@ $('#doFilter').click(function() {
         crime.marker = L.marker([crime.point_y, crime.point_x], markerOptions)
         .bindPopup(crime.text_general_code + " at " + crime.location_block).addTo(map);
     }
+    markersTab = "filter"
     return crime.marker
 })
+    console.log(markersTab)
 })
 
 function showCrimes(){
@@ -148,26 +152,41 @@ function showCrimes(){
         }
         return crime.marker
         })*/
-        crimeMarkers.forEach(function(marker){
-            if (marker){
-                marker.addTo(map)}
-        })
+        if (markersTab == "clear"){
+            crimeMarkers.forEach(function(marker){
+                if (marker){
+                    marker.addTo(map)}
+                markersTab = "all"
+            })
+        }else{
+            resetMap()
+            crimeMarkers.forEach(function(marker){
+                if (marker){
+                    marker.addTo(map)}
+                markersTab = "all"
+        })    
+    }   console.log(markersTab)
 }     
 
 
 function resetMap(){
-    if (filteredMarkers){
-        filteredMarkers.forEach(function(marker){
+    if (markersTab == "all"){
+        crimeMarkers.forEach(function(marker){
             if (marker){
-                map.removeLayer(marker)
-            }
-        })
-    }else{
-    crimeMarkers.forEach(function(marker){
-        if (marker){
-        map.removeLayer(marker)}
-    })}
+            map.removeLayer(marker)}
+    }) 
+        markersTab = "clear"
+    } else if
+        (markersTab == "filter"){
+            filteredMarkers.forEach(function(marker){
+                if (marker){
+                    map.removeLayer(marker)
+                }
+            }) 
+            markersTab = "clear"
+    }
     resetCityPage()
+    console.log(markersTab)
 }
 
 
@@ -188,9 +207,9 @@ $("#resetmap").click(function(){
 })
 
 $("#all").click(function(){
-    console.log("1")
-    showCrimes()
     resetMap()
+    showCrimes()
+   
 })
 
 $("#clear").click(function(){
@@ -198,8 +217,16 @@ $("#clear").click(function(){
     resetMap()
 })
 
-$("#Help").click()
+$("#Help").click(function(){
+    $('#myModalHome').modal('show');
+})
 
+var myModal = document.getElementById('myModalHome')
+var myInput = document.getElementById('myInput')
+
+myModalHome.addEventListener('shown.bs.modal', function () {
+  myInput.focus()
+})
 /*$('doFilter').click(function(){
     obj = document.getElementsByName("select")
     console.log(obj)
